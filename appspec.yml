@@ -4,6 +4,7 @@ files:
    - source: /
      destination: /var/www/html/wp
 hooks:
-  After Install:
-    - location: after-install.sh
+  AfterInstall:
+    - location: \after-install.sh
+
           
